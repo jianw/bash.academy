@@ -23,68 +23,75 @@
             <h1>Sections</h1>
             <div id="toc"></div>
 
-            <h1>Chapters</h1>
+            <h1>章节</h1>
             <ul>
                 <li id="chapter_cover"><a href="index.html#">Cover<br>
-                    <sub>The Bash Guide</sub></a></li>
-                <li id="chapter_inception"><a href="inception.html#">Inception<br>
+                    <sub>指南封面</sub></a></li>
+                <li id="chapter_inception"><a href="inception.html#">开始<br>
                     <sub>What is bash, and where does it live?</sub></a></li>
-                <li id="chapter_commands"><a href="commands.html#">Commands And Arguments<br>
+                <li id="chapter_commands"><a href="commands.html#">命令和参数<br>
                     <sub>How do I give bash instructions?</sub></a></li>
             </ul>
         </nav>
 
         <header data-stellar-background-ratio="0.4">
             <div>
-                <h1>The Bash Guide</h1>
-                <h2>by <a href="http://www.lhunath.com">lhunath</a> <cite>(<a href="http://thanks.lhunath.com">thanks</a>)</cite></h2>
+                <h1>Bash指南</h1>
+                <h2>作者： <a href="http://www.lhunath.com">lhunath</a> <cite>(<a href="http://thanks.lhunath.com">thanks</a>)</cite></h2>
+                <h2>翻译： <a href="http://www.itu.dk/people/jwan">王健</a> </h2>                
             </div>
         </header>
 
         <section>
-            <p>This guide is an introduction to basic and advanced concepts of the bash shell.</p>
-            <p>It teaches both newcomers and long-time users the best, safest and most robust ways of writing powerful bash scripts as well as making efficient and speedy interactive use of the shell.</p>
-            <p>This guide has gone through several iterations and is the result of a severe lack of consistent, clear and reliable language on the topic on the rest of the Internet as well as the public library or book stores.</p>
+            <p>这篇指南包含了bash shell基础和高级知识。</p>
+            <p>无论正在阅读的你是新手还是长期用户，在此你都将学到如何在有效快速地使用shell的同时，写出最安全的和最健壮的强大bash脚本。</p>
+            <p>这篇指南经历了数次迭代，它是很多网络资料和书籍教程的结晶，而这些资料和书籍通常缺少一致性、明确性和可靠性。</p>
 
-            <h2>Chapters</h2>
+            <h2>章节</h2>
             <ol id="chapter_list">
-                <li><label for="done_inception"><input type="checkbox" id="done_inception"> I'm done</label>
-                <a href="inception.html">Inception</a><sup>draft</sup>: What is bash, and where does it live?
+                <li><label for="done_inception"><input type="checkbox" id="done_inception"> 完成</label>
+                <a href="inception.html">开始</a><sup>draft</sup>: Bash为何，其居何处?
                 <p>An introduction to bash, installing and starting it; the terminal, the keyboard and the display; programs, processes and how their flow of information is connected.</p></li>
-                <li><label for="done_commands"><input type="checkbox" id="done_commands"> I'm done</label>
-                <a href="commands.html">Commands And Arguments</a><sup>draft</sup>: How do I give bash instructions?
+                <li><label for="done_commands"><input type="checkbox" id="done_commands"> 完成</label>
+                <a href="commands.html">命令和参数</a><sup>draft</sup>: 如何给Bash指令？
                 <p>About what a command is, and how to issue them; interactive mode and scripts; command syntax, searching commands and programs by name; arguments and word splitting as well as input and output redirection.</p></li>
-                <li><label for="done_variables"><input type="checkbox" id="done_variables"> I'm done</label>
-                <a href="variables.html">Variables And Expansions</a><sup>drafting</sup>: How do I store and work with data?
+                <li><label for="done_variables"><input type="checkbox" id="done_variables"> 完成</label>
+                <a href="variables.html">变量和扩展</a><sup>drafting</sup>: 如何存储和处理数据？
                 <p>Bash parameters and variables; environment variables, special parameters and array parameters; expanding parameters, expansion operators, command substitution and process substitution; pathname expansion, tilde expansion and brace expansion.</p></li>
-                <li><label for="done_conditionals"><input type="checkbox" id="done_conditionals"> I'm done</label>
-                <a href="conditionals.html">Tests And Conditionals</a><sup>todo</sup>: Different commands for different data.
+                <li><label for="done_conditionals"><input type="checkbox" id="done_conditionals"> 完成</label>
+                <a href="conditionals.html">测试和条件</a><sup>todo</sup>: 不同的指令处理不同的数据。
                 <p>Exit codes, success and failure, testing files, strings and numbers, handling different conditions, conditional operators and conditional compound commands.</p></li>
-                <li><label for="done_loops"><input type="checkbox" id="done_loops"> I'm done</label>
-                <a href="loops.html">Loops And Functions</a><sup>todo</sup>: Avoid repeating yourself.
+                <li><label for="done_loops"><input type="checkbox" id="done_loops"> 完成</label>
+                <a href="loops.html">循环和函数</a><sup>todo</sup>: 避免重复。
                 <p>Iterating commands using for loops, while and until loops, select statements and grouping them in functions.</p></li>
-                <li><label for="done_asynchronous"><input type="checkbox" id="done_asynchronous"> I'm done</label>
-                <a href="asynchronous.html">Asynchronous Commands</a><sup>todo</sup>: Doing work in the background and managing jobs.
+                <li><label for="done_asynchronous"><input type="checkbox" id="done_asynchronous"> 完成</label>
+                <a href="asynchronous.html">异步命令</a><sup>todo</sup>: 幕后工作与任务管理
                 <p>About jobs, asynchronous commands, job control, process identifiers and signals, process management, inter-process communications.</p></li>
-                <li><label for="done_terminal"><input type="checkbox" id="done_terminal"> I'm done</label>
-                <a href="terminal.html">Colors And Terminal Commands</a><sup>todo</sup>: Advanced control over the terminal display.
+                <li><label for="done_terminal"><input type="checkbox" id="done_terminal"> 完成</label>
+                <a href="terminal.html">颜色和终端命令</a><sup>todo</sup>: 终端显示的高级控制。
                 <p>Terminals and terminal sequences, terminal identifiers, terminfo and terminal capabilities, outputting colors, moving the cursor and querying the terminal's state.</p></li>
-                <li><label for="done_readline"><input type="checkbox" id="done_readline"> I'm done</label>
-                <a href="readline.html">Customizing The Prompt</a><sup>todo</sup>: Changing the look and feel of the interactive shell.
+                <li><label for="done_readline"><input type="checkbox" id="done_readline"> 完成</label>
+                <a href="readline.html">自定义提醒</a><sup>todo</sup>: 改变外观去感受shell的交互。
                 <p>Prompting, prompt commands and the DEBUG signal, readline, bind and input modes and hotkeys, programmatic command completion.</p></li>
-                <li><label for="done_advanced"><input type="checkbox" id="done_advanced"> I'm done</label>
-                <a href="advanced.html">Advanced Topics</a><sup>todo</sup>: About syntax sugar, specific use cases and shell tricks.</li>
-                <li><label for="done_practices"><input type="checkbox" id="done_practices"> I'm done</label>
-                <a href="advanced.html">Recommendations And Pitfalls</a><sup>todo</sup>: How to do things well and how to do things very, very badly.</li>
-                <li><label for="done_external"><input type="checkbox" id="done_external"> I'm done</label>
-                <a href="external.html">Noteworthy External Tools</a><sup>todo</sup>: Bash is limited, but augmented by a powerful toolset.</li>
+                <li><label for="done_advanced"><input type="checkbox" id="done_advanced"> 完成</label>
+                <a href="advanced.html">高级话题</a><sup>todo</sup>: 关于语法糖，特定使用形式和shell技巧。</li>
+                <li><label for="done_practices"><input type="checkbox" id="done_practices"> 完成</label>
+                <a href="advanced.html">推荐和陷阱</a><sup>todo</sup>: 如何把事情做好，如何把事情做糟</li>
+                <li><label for="done_external"><input type="checkbox" id="done_external"> 完成</label>
+                <a href="external.html">值得注意的外部工
+                具</a><sup>todo</sup>: Bash的能力是有限的，可以用强大的工具来补充。</li>
             </ol>
 
-            <h2>Authorship</h2>
+            <h2>作者</h2>
             <p>The primary author and maintainer of this guide is <a href="http://www.lhunath.com">lhunath (Maarten Billemont)</a>.</p>
             <p>This guide is open source, licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> (CC-BY-SA).  The source code is available at <a href="https://github.com/lhunath/bash.academy">GitHub</a> and you are welcome to fork it, modify it and contribute changes back to this document as pull requests.</p>
             <p>For advice, comments, suggestions, corrections or recommendations, contact lhunath, <a href="https://github.com/lhunath/bash.academy/issues">file an issue</a> or visit <a href="irc://freenode.org/#bash">the freenode.org #bash community on IRC</a>.
             <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
+
+          <h2>译者按</h2>
+          <p>最近从头再学Bash，发现了这个教程，心想译成中文或许能迫使自己阅读得仔细一点。</p>
+          <p>若能造福与人，那是最好的了，奈何文笔有限，译文以精准为先。</p>
+          <p>Bash，shell等多数专用名词并未翻译</p>          
         </section>
 
         <footer>
